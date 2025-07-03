@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from "./Components/Hero.jsx";
 import Main from "./Components/Main.jsx";
+import Quote from './Components/Quote.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
 </div>
    <Hero/>
    <Main/>
+   <Quote/>
 
   
     </>
