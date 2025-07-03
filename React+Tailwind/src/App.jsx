@@ -5,7 +5,8 @@ import './App.css'
 import Hero from "./Components/Hero.jsx";
 import Main from "./Components/Main.jsx";
 import Quote from './Components/Quote.jsx';
-
+import Call from './Components/Call.jsx';
+import Footer from './Components/Footer.jsx';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -26,6 +27,8 @@ function App() {
    <Hero/>
    <Main/>
    <Quote/>
+   <Call/>
+   <Footer/>
 
   
     </>
