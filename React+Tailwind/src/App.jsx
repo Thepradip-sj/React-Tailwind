@@ -7,6 +7,7 @@ import Main from "./Components/Main.jsx";
 import Quote from './Components/Quote.jsx';
 import Call from './Components/Call.jsx';
 import Footer from './Components/Footer.jsx';
+
 function App() {
   const [count, setCount] = useState(0)
 
